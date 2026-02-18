@@ -1,0 +1,13 @@
+[project]
+name = "llm-from-scratch"
+version = "0.1.0"
+description = "A lightweight LLM built from scratch for educational purposes."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "numpy",
+    "tqdm",
+    "tiktoken",
+    "matplotlib",
+]
