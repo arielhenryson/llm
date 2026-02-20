@@ -37,6 +37,8 @@ Here is a breakdown of the project components:
 
 3.  **Prepare Data**:
 
+    This command downloads the **TinyShakespeare** dataset (a collection of Shakespeare's works) and tokenizes it using the GPT-2 BPE tokenizer. The processed data is split into training and validation sets and saved as binary files (`train.bin` and `val.bin`) in the `data/` directory.
+
     ```bash
     uv run data/prepare.py
     ```
